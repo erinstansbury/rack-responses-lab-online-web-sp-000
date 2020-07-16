@@ -9,6 +9,6 @@ class Application
     resp.write "Good Afternoon!"
   end
   
-  
+  resp.finish
   
 end
