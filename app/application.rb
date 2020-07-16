@@ -1,8 +1,9 @@
 class Application
   
   resp = Rack::Response.new
+  time = Time.now
   
-  def check(time)
+  def
     if time < 12
       resp.write "Good Morning!"
     else
